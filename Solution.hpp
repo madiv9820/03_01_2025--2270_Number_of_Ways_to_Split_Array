@@ -8,7 +8,7 @@ public:
         int n = nums.size(); // Get the size of the array
         
         // Initialize leftSum and rightSum to 0
-        int leftSum = 0, rightSum = 0;
+        long long int leftSum = 0, rightSum = 0;
 
         // Calculate the sum of the entire array and store it in rightSum
         // Initially, the right subarray is the whole array
