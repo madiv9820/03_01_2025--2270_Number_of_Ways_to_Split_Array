@@ -12,7 +12,7 @@ public:
             // Initialize pointers for the left and right subarrays
             int leftPtr = index, rightPtr = index + 1;
             
-            int leftSum = 0, rightSum = 0; // Initialize sums of the left and right subarrays
+            long long int leftSum = 0, rightSum = 0; // Initialize sums of the left and right subarrays
 
             // Compute the sum of the left subarray (from 0 to index)
             for(; leftPtr >= 0; --leftPtr) leftSum += nums[leftPtr];
