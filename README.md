@@ -183,8 +183,8 @@
 
     - ### Time Complexity
         - The solution involves two main operations:
-            1. A single pass to compute the sum of the entire array ($O(n)$).
-            2. A second pass to compute the left and right sums and check the condition at each potential split point ($O(n)$).
+            1. A single pass to compute the sum of the entire array $O(n)$.
+            2. A second pass to compute the left and right sums and check the condition at each potential split point $O(n)$.
         
             Therefore, the overall time complexity is **$O(n)$**, where $n$ is the number of elements in the array.
 
