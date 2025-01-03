@@ -25,7 +25,7 @@
 
     - ### Code Implementation
         - **Python Solution**
-            ```python3[]
+            ```python3 []
             class Solution:
                 def waysToSplitArray(self, nums: List[int]) -> int:
                     splitCount = 0  # Counter to keep track of the number of valid splits
